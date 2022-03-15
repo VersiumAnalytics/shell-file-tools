@@ -1,5 +1,3 @@
-// Copyright 2014 Versium Analytics, Inc.
-// License : BSD 3 clause
 #include "vhash.h"
 #include "vmath.h"
 

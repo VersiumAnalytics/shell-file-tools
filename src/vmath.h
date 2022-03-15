@@ -1,5 +1,3 @@
-// Copyright 2014 Versium Analytics, Inc.
-// License : BSD 3 clause
 /*
    Most of the routines in here are simply wrappers for the C fctn in all
    lower-case, but have error checking built into.

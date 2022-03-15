@@ -1,5 +1,3 @@
-// Copyright 2014 Versium Analytics, Inc.
-// License : BSD 3 clause
 #include <stdio.h>
 
 #ifdef __cplusplus //inform the compiler that these are C functions if we are using a c++ compiler

@@ -1,5 +1,3 @@
-// Copyright 2014 Versium Analytics, Inc.
-// License : BSD 3 clause
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

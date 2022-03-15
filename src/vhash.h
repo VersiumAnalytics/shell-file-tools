@@ -1,5 +1,3 @@
-// Copyright 2014 Versium Analytics, Inc.
-// License : BSD 3 clause
 #ifndef __HASH_H__
 #define __HASH_H__
 
