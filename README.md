@@ -1,23 +1,32 @@
 
-# Versium Open Tools
+# shell-file-tools
 A collection of simple, fast, and efficient command-line tools for data manipulation.
 
 
 
 # Requirements
-- gcc
-- GNU Make (optional)
+- GNU Make
 
 
 
 # Installation
-Clone the repository to the desired location and run `make` using the following commands:
+Clone the repository to the desired location and run the following commands:
 ```
-$ git clone https://github.com/versiumanalytics/VersiumOpenTools
-$ cd VersiumOpenTools/src
-$ make all
+$ git clone https://github.com/versiumanalytics/shell-file-tools
+$ cd shell-file-tools/
+$ ./configure
+$ make
+$ make install
 ```
-If you do not wish to use **make** or **gcc**, or want to compile the tools with different compiler flags, use the Makefile in *VersiumOpenTools/src* as a guide for compiling the tools manually.
+Running `make install` will copy the compiled binaries in the *shell-file-tools/src* directory over to the default *bindir* for your system. To change the default location see `./configure --help`.
+
+Note: You may need to run `make install` with sudo if you do not have write permissions for the *bin* directory.
+```
+$ sudo make install
+```
+
+To clean up your source tree after installing run `make clean`
+
 
 
 
