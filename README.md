@@ -134,7 +134,7 @@ get-fs [-d delim] [-t | -T] [-e escape char] [-h HEADER-FILE.txt] [-s SAMPLE-SIZ
 
 ### Example:
 ```
-$ head -10000 contacts.csv | get-filestats ',' -h contacts-header.
+$ head -10000 contacts.csv | get-fs ',' -h contacts-header.
 
 ** File Report **
 -----------------

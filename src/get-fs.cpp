@@ -600,7 +600,7 @@ int main(int argc, char **argv) {
     if (lcnt < 1) {
         cout << "There's no record at all" << endl;
     } else {
-        printf("** Versium Analytics File Report **\n");
+        printf("** File Report **\n");
         cout << "Generation Time: " << formattedDT("%Y-%m-%d %H:%M:%S") << endl;
         printf("Processor: [%s]\n", hostname);
         printf("-----------------\n");
