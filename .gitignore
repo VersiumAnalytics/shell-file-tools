@@ -1,4 +1,13 @@
 .vscode
 .DS_Store
-bin
-src/obj
+
+Makefile
+src/Makefile
+src/*
+config.*
+stamp-h?
+
+!config.h.in
+!src/*.h
+!src/*.c
+!src/*.cpp
