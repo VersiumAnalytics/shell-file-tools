@@ -6,6 +6,7 @@
 #define __VMATH_H__
 
 #include <stdlib.h>
+#include <stdint.h>
 
 #define L_UNKNOWN       (0)
 #define L_DIVISOR       (1)
